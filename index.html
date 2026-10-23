@@ -3,191 +3,243 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Afthaab Abdul | Marketing &amp; Data</title>
-<meta name="description" content="Portfolio of Afthaab Abdul, MSc Marketing student in Manchester seeking technical, data-focused marketing roles.">
+<title>Afthaab Abdul | Marketing, Analytics &amp; Strategy</title>
+<meta name="description" content="Portfolio of Afthaab Abdul, a Manchester-based marketer combining consumer insight, data analysis, SEO and automation. Projects include an Oddbox SEO audit, a Porsche 911 colour experiment, a Ferrero concept and an AI job-hunting agent.">
+<meta name="theme-color" content="#fdfcfa">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2317191d'/%3E%3Ccircle cx='23' cy='23' r='3' fill='%23359b78'/%3E%3Ctext x='8' y='22' font-family='Arial' font-weight='700' font-size='16' fill='%23fff'%3EA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<!-- Side navigation -->
-<aside class="side">
-  <a class="brand" href="#home">Afthaab</a>
-  <nav aria-label="Main">
-    <a href="#home" class="active">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <div class="social">
-    <a href="https://www.linkedin.com/in/afthaababdul/" target="_blank" rel="noopener" aria-label="LinkedIn">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.63 4.74 6.05V21h-4v-4.9c0-1.17-.02-2.67-1.63-2.67-1.63 0-1.88 1.27-1.88 2.58V21h-4z"/></svg>
-    </a>
-    <a href="mailto:afthaababdul@gmail.com" aria-label="Email">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-    </a>
+<!-- Icon sprite -->
+<svg width="0" height="0" class="sr-only" aria-hidden="true">
+  <symbol id="i-arrow-diag" viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-bars" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3.5" y="12" width="4" height="8" rx="1.2"/><rect x="10" y="8" width="4" height="12" rx="1.2"/><rect x="16.5" y="4" width="4" height="16" rx="1.2"/></g></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="wordmark" href="#home" aria-label="Afthaab, home">AFTHAAB</a>
+    <nav aria-label="Main">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span class="bars" aria-hidden="true"></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--sm nav-cta" href="#contact">Let's connect <svg class="arrow arrow--diag" width="14" height="14" aria-hidden="true"><use href="#i-arrow-diag"/></svg></a>
   </div>
-</aside>
+</header>
 
-<main>
+<main id="main">
 
-  <!-- HERO -->
+  <!-- Hero -->
   <section class="hero" id="home">
-    <div class="blob blob-green" aria-hidden="true"></div>
-    <div class="blob blob-purple" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Marketing &nbsp;&middot;&nbsp; Analytics &nbsp;&middot;&nbsp; Strategy</p>
+        <h1><span>Curious mind.</span> <span>Technical hands.</span> <span class="accent">All ears.</span></h1>
+        <p class="intro">Exploring the intersection of people, data and creativity to turn ideas into real-world impact.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">View my work <svg class="arrow" width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost" href="#about">About me</a>
+        </div>
+        <ul class="values">
+          <li><span class="value-icon vi-green" aria-hidden="true"><svg><use href="#i-bars"/></svg></span>Data<br>driven</li>
+          <li><span class="value-icon vi-yellow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></span>Creative<br>thinking</li>
+          <li><span class="value-icon vi-lav" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3"/><path d="M6.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="5" cy="10" r="2.2"/><circle cx="19" cy="10" r="2.2"/><path d="M2 18a3.5 3.5 0 0 1 4-3.4M22 18a3.5 3.5 0 0 0-4-3.4"/></svg></span>People<br>focused</li>
+        </ul>
+      </div>
 
-    <div class="hero-text">
-      <p class="mono kicker">Marketing &bull; Analytics &bull; Strategy &bull; Real world impact</p>
-      <h1>Ideas.<br>Analysis.<br><span class="mark">Real impact.</span></h1>
-      <p class="lead">Hi, I'm Afthaab, an MSc Marketing student in Manchester. I like using data, technology and creative thinking to understand why people buy, and I'm looking for technical, data-focused marketing roles.</p>
-      <div class="cta">
-        <a class="btn dark" href="#projects">View my projects <span aria-hidden="true">&rarr;</span></a>
-        <a class="btn ghost" href="#about">More about me</a>
+      <div class="hero-visual">
+        <div class="shape shape--green" aria-hidden="true"></div>
+        <div class="shape shape--lav" aria-hidden="true"></div>
+        <img src="images/hero.svg" width="560" height="520" alt="Illustration of a minimal concrete courtyard in soft daylight, with a small olive branch in the foreground">
+        <p class="annotation hand" aria-hidden="true">Ideas.<br>Analysis.<br>Impact.
+          <svg viewBox="0 0 40 50" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 2c10 14 8 30-6 44"/><path d="M8 38l6 8 8-4"/></svg>
+        </p>
+        <p class="callout"><svg aria-hidden="true"><use href="#i-bars"/></svg>Turning insights into real-world impact.</p>
       </div>
     </div>
+  </section>
 
-    <div class="hero-art" aria-hidden="true">
-      <div class="screen">
-        <div class="screen-bar"><i></i><i></i><i></i><span class="mono">insights.r</span></div>
-        <div class="screen-body">
-          <p class="hand screen-note">Better<br>Questions,<br>Bigger<br>Impact</p>
-          <div class="bars"><b style="--h:35%"></b><b style="--h:55%"></b><b style="--h:45%"></b><b style="--h:80%"></b><b style="--h:95%"></b></div>
-          <p class="mono code">p = 0.004 <em>&#10003;</em></p>
+  <!-- Featured projects -->
+  <section class="section projects" id="projects" aria-labelledby="projects-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="label" id="projects-title">Featured projects</h2>
+        <a class="link" href="projects.html">View all projects <svg class="arrow" width="16" height="16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+
+      <ul class="cards reveal">
+        <li>
+          <a class="card" href="projects.html#oddbox">
+            <div class="card-media"><img src="images/oddbox.jpg" width="687" height="515" loading="lazy" alt="A box of fresh, colourful vegetables, as delivered by Oddbox"></div>
+            <div class="card-body">
+              <div class="tags"><span class="tag">SEO</span><span class="tag">Strategy</span></div>
+              <h3>Oddbox</h3>
+              <p>SEO and website audit, with recommendations to improve organic visibility.</p>
+              <div class="card-foot"><span class="round-arrow" aria-hidden="true"><svg><use href="#i-arrow-diag"/></svg></span></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="card" href="projects.html#porsche">
+            <div class="card-media"><img src="images/porsche.jpg" width="800" height="533" loading="lazy" alt="A Porsche 911 sports car"></div>
+            <div class="card-body">
+              <div class="tags"><span class="tag">Analytics</span><span class="tag">Experimentation</span></div>
+              <h3>Porsche 911</h3>
+              <p>An experiment on how colour vibrancy affects perceived aesthetic appeal.</p>
+              <div class="card-foot"><span class="round-arrow" aria-hidden="true"><svg><use href="#i-arrow-diag"/></svg></span></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="card" href="projects.html#ferrero">
+            <div class="card-media">
+              <img src="images/ferrero.jpg" width="800" height="533" loading="lazy" alt="Concept image of bite-sized, mochi-style ice creams">
+              <span class="media-note">AI-generated concept image, not a real product</span>
+            </div>
+            <div class="card-body">
+              <div class="tags"><span class="tag">Marketing</span><span class="tag">Product</span></div>
+              <h3>Ferrero</h3>
+              <p>Testing a brand extension and proposing a bite-sized ice cream concept.</p>
+              <div class="card-foot"><span class="round-arrow" aria-hidden="true"><svg><use href="#i-arrow-diag"/></svg></span></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="card" href="projects.html#agent">
+            <div class="card-media card-media--dark"><img src="images/agent.png" width="662" height="166" loading="lazy" alt="n8n workflow: Gmail trigger, condition check, add a row to a sheet, then send a message"></div>
+            <div class="card-body">
+              <div class="tags"><span class="tag">Product</span><span class="tag">Automation</span></div>
+              <h3>AI Job Hunting Agent</h3>
+              <p>An AI agent that streamlines and personalises the job search.</p>
+              <div class="card-foot"><span class="round-arrow" aria-hidden="true"><svg><use href="#i-arrow-diag"/></svg></span></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="about-panel reveal">
+        <div class="about-copy">
+          <p class="label">About me</p>
+          <h2 class="section-title" id="about-title">I enjoy understanding <em>people</em>, exploring ideas and solving problems.</h2>
+          <div class="about-text">
+            <p>I came to marketing from finance. After a Bachelor of Commerce in Finance and Accountancy at Christ University, I worked in banking and global recruitment operations, where I got used to handling numbers and tight deadlines. Along the way I realised I was more curious about why people buy things than about the numbers alone.</p>
+            <p>That curiosity took me to an MSc in Marketing at the University of Manchester as a Global Futures Scholarship recipient. Since then I've done an SEO internship, run a controlled experiment in R and Python, and started building my own automation tool with n8n and APIs.</p>
+            <p>I like learning by building. Whether I'm analysing a dataset, working through a brand problem or wiring up an AI-powered workflow, I want to understand what works, why it works and how it could be better.</p>
+          </div>
+        </div>
+
+        <div class="about-side">
+          <img src="images/about.svg" width="480" height="360" loading="lazy" alt="Illustration of a stone archway with a soft peach sphere and a small olive branch">
+          <dl class="facts">
+            <div><dt>Study</dt><dd>MSc Marketing, University of Manchester</dd></div>
+            <div><dt>Background</dt><dd>BCom Finance &amp; Accountancy, Christ University</dd></div>
+            <div><dt>Experience</dt><dd>SEO internship, banking, global recruitment operations</dd></div>
+            <div><dt>Interests</dt><dd>Consumer behaviour, experimentation, automation</dd></div>
+            <div><dt>Based in</dt><dd>Manchester, UK</dd></div>
+          </dl>
+        </div>
+
+        <div class="stats">
+          <div><strong>4</strong><span>Featured projects</span></div>
+          <div><strong>3</strong><span>Core areas: marketing, analytics, automation</span></div>
+          <div><strong>100</strong><span>Participants in my colour experiment</span></div>
         </div>
       </div>
-      <span class="sticker s1 mono">SEO</span>
-      <span class="sticker s2 mono">R</span>
-      <span class="sticker s3 mono">n8n</span>
-
-      <p class="hand note-top">Turning<br>insights<br>into<br>action.</p>
-      <svg class="doodle arrow-top" viewBox="0 0 100 70" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M92 6C88 38 60 58 14 56"/><path d="M28 44 12 56l18 10"/></svg>
-    </div>
-
-    <svg class="doodle star" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M40 6v68M10 22l60 36M70 22 10 58"/></svg>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="projects" id="projects">
-    <div class="section-head">
-      <div>
-        <p class="mono kicker">Featured projects</p>
-        <h2><span class="squiggle">Selected Work</span></h2>
-        <p class="sub">A mix of university work and self-directed building.</p>
-      </div>
-      <p class="hand note-inline">Click a card to read more
-        <svg class="doodle" viewBox="0 0 60 50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6c26 0 42 14 44 34"/><path d="M42 30l10 12 8-14"/></svg>
-      </p>
-    </div>
-
-    <div class="grid">
-
-      <a class="card c-lav" href="files/Oddbox-Final.pdf" target="_blank" rel="noopener">
-        <span class="num">01</span>
-        <img class="card-img" src="images/oddbox.png" alt="A box of fresh, colourful vegetables and flowers, as delivered by Oddbox" loading="lazy">
-        <span class="pill">SEO</span>
-        <p class="meta mono">University project &middot; Solo</p>
-        <h3>Oddbox SEO and Website Audit</h3>
-        <p>I checked Oddbox's website for things holding back its Google visibility, like weak content and a confusing user journey. I then suggested fixes to help more people find it and buy.</p>
-        <ul class="chips"><li>SEO audit</li><li>UX review</li><li>Keyword research</li></ul>
-        <span class="go"><span class="view">View PDF</span><span class="circle" aria-hidden="true">&rarr;</span></span>
-      </a>
-
-      <a class="card c-peach" href="files/Ferrero_Project_Portfolio_Summary.pdf" target="_blank" rel="noopener">
-        <span class="num">02</span>
-        <img class="card-img" src="images/ferrero.jpg" alt="Concept image of bite-sized mochi-style ice creams" loading="lazy">
-        <p class="img-caption">AI-generated concept image, not a real product</p>
-        <span class="pill">Strategy</span>
-        <p class="meta mono">University project &middot; Solo report</p>
-        <h3>Ferrero Sharing Tub or Mochi Bites?</h3>
-        <p>I tested whether Ferrero should launch a big 500ml sharing tub of its ice cream. I found it didn't fit the brand well, so I proposed bite-sized, mochi-style ice creams and checked the idea against competitors like Magnum Minis and Little Moons.</p>
-        <ul class="chips"><li>Brand extension theory</li><li>Competitor benchmarking</li><li>Dickson's three tests</li><li>Strategic writing</li></ul>
-        <span class="go"><span class="view">View PDF</span><span class="circle" aria-hidden="true">&rarr;</span></span>
-      </a>
-
-      <div class="card c-green">
-        <span class="num">03</span>
-        <img class="card-img contain" src="images/agent.png" alt="n8n workflow: Gmail trigger, condition check, add a row to a sheet, then send a message" loading="lazy">
-        <span class="pill">Automation</span>
-        <p class="meta mono">Ongoing &middot; Solo</p>
-        <h3>Building an AI Job-Hunting Agent</h3>
-        <p>I'm building a tool that finds jobs and writes tailored CVs for me. It connects Gmail, Reed and Google Gemini.</p>
-        <ul class="chips"><li>n8n</li><li>JavaScript</li><li>REST APIs</li><li>Automation</li></ul>
-        <span class="go"><span class="view wip">In progress</span></span>
-      </div>
-
-      <a class="card c-blue" href="files/Porsche-Individual-Final.pdf" target="_blank" rel="noopener">
-        <span class="num">04</span>
-        <img class="card-img" src="images/porsche.jpg" alt="A Porsche 911 sports car" loading="lazy">
-        <span class="pill">Analytics</span>
-        <p class="meta mono">University project</p>
-        <h3>Porsche 911 Colour Experiment</h3>
-        <p>I ran an experiment with 100 people to test whether a bright car colour makes a car look more attractive than a dull one. Each person saw only one colour, and I checked for fairness and accounted for how much they liked sports cars. Bright colours won, and the result was statistically significant (p = 0.004).</p>
-        <ul class="chips"><li>R</li><li>A/B testing</li><li>t-tests</li><li>Survey design</li><li>Data analysis</li></ul>
-        <span class="go"><span class="view">View PDF</span><span class="circle" aria-hidden="true">&rarr;</span></span>
-      </a>
-
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-grid">
-      <div class="about-text">
-        <p class="mono kicker">About me</p>
-        <h2>From finance to <span class="mark">marketing</span>, curious all the way.</h2>
-        <p>I started in finance, with a Bachelor of Commerce in Finance and Accountancy from Christ University. I worked in banking and global recruitment operations, where I got used to handling numbers and tight deadlines. Along the way I realised I was more curious about why people buy things than about the numbers alone, so I moved into marketing.</p>
-        <p>I'm studying for an MSc in Marketing at the University of Manchester as a Global Futures Scholarship recipient. I've done an SEO internship, run a controlled experiment in R and Python, and I'm now building my own automation tool with n8n and APIs.</p>
-        <p>I enjoy mixing data, technology and creative thinking, and I'm interested in opportunities where I can add value in technical marketing roles.</p>
+  <!-- Skills -->
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <div class="wrap skills-grid reveal">
+      <div class="skills-intro">
+        <p class="label">Skills</p>
+        <h2 class="section-title" id="skills-title">What I bring to a problem.</h2>
+        <p>Grounded in marketing, sharpened with data, and increasingly hands-on with tools.</p>
       </div>
-
-      <div class="skills">
-        <p class="mono kicker">Key skills</p>
-        <ul>
-          <li class="t1">Marketing strategy</li>
-          <li class="t2">Data analysis (R, Python)</li>
-          <li class="t3">SEO &amp; keyword research</li>
-          <li class="t4">A/B testing &amp; experiments</li>
-          <li class="t5">Automation (n8n, APIs, JavaScript)</li>
-          <li class="t6">Competitor benchmarking</li>
-        </ul>
-        <p class="hand note-skills">Always learning,<br>always exploring.</p>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Core</h3>
+          <ul class="pills">
+            <li class="pill pill--core d-green">SEO</li>
+            <li class="pill pill--core d-green">Data analysis</li>
+            <li class="pill pill--core d-green">Marketing strategy</li>
+            <li class="pill pill--core d-green">Consumer behaviour</li>
+            <li class="pill pill--core d-green">Experimentation</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Supporting</h3>
+          <ul class="pills">
+            <li class="pill d-yellow">Performance marketing</li>
+            <li class="pill d-yellow">Content &amp; strategy</li>
+            <li class="pill d-yellow">Competitor benchmarking</li>
+            <li class="pill d-yellow">Survey design</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; automation</h3>
+          <ul class="pills">
+            <li class="pill pill--sm d-lav">R</li>
+            <li class="pill pill--sm d-lav">Python</li>
+            <li class="pill pill--sm d-lav">n8n</li>
+            <li class="pill pill--sm d-lav">JavaScript</li>
+            <li class="pill pill--sm d-lav">REST APIs</li>
+            <li class="pill pill--sm d-lav">Google Gemini</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <p class="mono kicker">Contact</p>
-    <h2>Let's <span class="squiggle">talk</span>.</h2>
-    <p class="lead">I'm open to technical, data-focused marketing roles. The easiest way to reach me is by email or LinkedIn.</p>
-    <div class="cta">
-      <a class="btn dark" href="mailto:afthaababdul@gmail.com">afthaababdul@gmail.com</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/afthaababdul/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&rarr;</span></a>
+  <!-- Contact -->
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <svg class="contact-doodle" viewBox="0 0 60 50" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8c22-4 40 8 46 30"/><path d="M40 32l10 8 4-12"/></svg>
+        <div>
+          <p class="label">Contact</p>
+          <h2 class="section-title" id="contact-title">Always open to interesting conversations.</h2>
+          <p class="lead">Whether it's a project, an idea or just a chat, feel free to reach out.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:afthaababdul@gmail.com">Let's connect <svg class="arrow arrow--diag" width="14" height="14" aria-hidden="true"><use href="#i-arrow-diag"/></svg></a>
+          <div class="contact-links">
+            <a href="mailto:afthaababdul@gmail.com">afthaababdul@gmail.com</a>
+            <a href="https://www.linkedin.com/in/afthaababdul/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer class="mono">&copy; <span id="year">2026</span> Afthaab Abdul &middot; Manchester, UK</footer>
 </main>
 
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; <span class="year">2026</span> Afthaab Abdul</span>
+    <span>Manchester, UK</span>
+  </div>
+</footer>
 
-  // Highlight the current section in the side nav
-  const links = [...document.querySelectorAll('.side nav a')];
-  const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          links.forEach(l => l.classList.remove('active'));
-          map.get(e.target.id)?.classList.add('active');
-        }
-      });
-    }, { rootMargin: '-40% 0px -55% 0px' });
-    map.forEach((_, id) => { const el = document.getElementById(id); if (el) io.observe(el); });
-  }
-</script>
+<script src="script.js" defer></script>
 </body>
 </html>
